@@ -62,6 +62,19 @@ header ul li a {
   font-size: 20px;
 }
 
+.lang{
+  display: flex;
+  float: left;
+  margin-left: 20px;
+  align-items: center;
+  height: 64px;
+  color: #FF7F66;
+}
+
+.strelkaDown{
+  height: 30px;
+}
+
 .info {
   display: flex;
   justify-content: center;
@@ -497,8 +510,6 @@ header ul li a {
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
   color: #ff003c;
-  background: -webkit-linear-gradient(45deg, #ff003c, #c648c8);
-  /* -webkit-background-clip: text;  */
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
