@@ -1,4 +1,4 @@
-let langData = [["Язык", "Мова", "Language"], ["Социальная сеть", "соціальні мережі", "social network"]]
+let langData = [["Язык", "Мова", "Language"], ["Социальная сеть", "соціальні мережі", "social network"], ["Магазин", "shop", "крамниця"], ["Карта мира", "world map", "карта світу"], ["Вики", "Wiki", "Вікі"], ["Вход", "Entry", "Вхід"], ["MAGATAMY", "MAGATAMY", "MAGATAMY"], ["Выживание с атмосферным комьюнити и уникальными фишками", "Survival with atmospheric community and unique features", "Виживання з атмосферним ком'юніті та унікальними фішками"], ["ИНФОРМАЦИЯ", "INFORMATION", "ІНФОРМАЦІЯ"], ["Советуем прочитать!", "You are advised to read it!", "Радимо прочитати!"], ["Активность", "Activity", "Активність"]]
 
 let card = document.getElementById("cardImageUser")
 
