@@ -32,7 +32,7 @@ function getUserCard(userId) {
     })
 }
 
-function translate(language) {
+function translateText(language) {
   let langIndex
 
   if (language == "RU") {
