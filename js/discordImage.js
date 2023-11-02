@@ -3,7 +3,7 @@ let card = document.getElementById("cardImageUser")
 var users = {"493318176189448204": {}, "961256514427969607": {}, "513975760189390855": {}};
 
 function getUserCard(userId) {
-    return fetch(`https://magatamy.com/api/v1/discord/users/${userId}`)
+    return fetch(`https://magatamy.com/api/v1/discord/users-by-bot/${userId}`)
         .then(response => response.json())
         .then(commits => {
             console.log(commits);
