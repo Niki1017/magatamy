@@ -25,7 +25,6 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  overflow: hidden;
   padding: 15px;
   text-align: center;
   background: rgb(32, 29, 29);
@@ -62,13 +61,64 @@ header ul li a {
   font-size: 20px;
 }
 
-.lang{
-  display: flex;
+.vector-down {
+  vertical-align: middle;
+}
+
+.language:hover .vector-down {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+nav {
+  background: #fff;
+  width: 120px;
+  opacity: 0;
+  transition: .5s;
+  pointer-events: none;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.078);
+}
+
+.smena-language{
   float: left;
-  margin-left: 20px;
+  list-style-type: none;
+  margin-left: 30px;
+  height: 100px;
   align-items: center;
-  height: 64px;
-  color: #FF7F66;
+}
+
+.language{
+  vertical-align: center;
+  align-items: center;
+  vertical-align: bottom;
+}
+
+.langNav{
+  position: absolute;
+  margin-left: -50px;
+}
+
+.smena-language:hover nav {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lang {
+  /* border: 1px solid #000; */
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  width: 120px;
+  opacity: 1;
+}
+
+.lang:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .strelkaDown{
